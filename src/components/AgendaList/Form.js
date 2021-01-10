@@ -21,7 +21,10 @@ export function Form() {
 
   const addContact = (event) => {
     event.preventDefault();
-    setData(prevState => ({ ...prevState, users: [...prevState.users, userInput] }));
+    setData(prevState => ({ 
+      ...prevState, 
+      users: [...prevState.users, userInput] 
+    }));
   }
 
   return (
