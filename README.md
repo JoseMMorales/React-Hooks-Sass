@@ -2,13 +2,31 @@
 
 # React-Hooks-Sass 
 
-[Hooks](https://reactjs.org/docs/hooks-faq.html#do-i-need-to-rewrite-all-my-class-components) are integrated functions in [React v16.8](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html) that give to React developers managing lifecycle methods inside functional components without building any class. In this repo I have used a few of them to use local state to manage data for UI in different scenarios. 
+[Hooks](https://reactjs.org/docs/hooks-faq.html#do-i-need-to-rewrite-all-my-class-components) are integrated functions in [React v16.8](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html) that give to React developers managing lifecycle methods inside functional components without building any class. In this repo, I've used a few of them to use local state to manage data for UI in different scenarios. 
 
 Besides, this project has also been implemented with CSS pre-processor ([Sass](https://create-react-app.dev/docs/adding-a-sass-stylesheet/) **'Syntactically awesome style sheets'**) to build the style sheets faster, which are executed on the server and sends CSS to the browser.
 
-### Hooks in React-Hooks-Sass Project...
+### Hooks in React-Hooks-Sass are...
 
-[UseState](https://reactjs.org/docs/hooks-state.html), [UseEffect](https://reactjs.org/docs/hooks-effect.html) and [UseContent](https://reactjs.org/docs/hooks-reference.html#usecontext)
+[UseState](https://reactjs.org/docs/hooks-state.html), [UseEffect](https://reactjs.org/docs/hooks-effect.html) and [UseContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+
+## This project...
+In this App you will find four practice tasks which I created reusable components, all of them linked an routed from high level App.js towards each individual page (see structure below). The navbar is been named to identify the certain task you are in, so it is very easy to go through. 
+
+* **Cards:** Meaning of this scenario is how to repeat same component (Card.js) passing props in all parameters of each card based on needs.
+* **Shop:** On this scenario, I have created two components (List.js and Library.js) to display data dinamically coming from useContext.
+* **Agenda:** On this scenario, Agenda.js component is displaying the data from useContext, so Form.js updates the states in main database.
+* **To Do:** On this scenario, we get data from API using fetch in createContent for being displayed dinamically when Input.js is adding a new To Do.
+
+#### (!!Just 20 elements in To Dos call have been used in this task)
+#### API: https://jsonplaceholder.typicode.com/todos 
+
+## App Structure
+![Screenshot 2021-01-10 at 23 29 36](https://user-images.githubusercontent.com/43299285/104137258-ced47b00-539b-11eb-9480-43f4ab4d5707.png)
+
+### Demo...
+![Screen Recording 2021-01-10 at 23 35 30 (1)](https://user-images.githubusercontent.com/43299285/104137496-7e5e1d00-539d-11eb-90cb-acd20938f808.gif)
+
 
 ## Installing
 * **Note that you should have installed NodeJS ^10.16.3 to proceed with steps below**
