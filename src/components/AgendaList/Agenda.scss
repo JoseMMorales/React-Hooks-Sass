@@ -1,0 +1,7 @@
+.container-agenda {
+  @include container-centered(flex, column, center, center)
+}
+
+.list-group-agenda {
+  width: 20rem;
+}

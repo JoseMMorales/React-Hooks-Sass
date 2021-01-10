@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  margin: 0;
+  font-family: $font-stack;
+  padding-top: 70px;
+}
+
+code {
+  font-family: $font-code;
+}
+
+.navbar {
+  &.navbar-expand-lg {
+    padding: 0 0.5rem;
+    background-color: rgb(42, 44, 51);
+  }
+
+  .navbar-brand img {
+    width: 3rem;
+  }
+  
+  .nav-item {
+    font-size: 1.1rem;
+
+    .nav-link {
+      &.active-style:visited {
+        color: #77d5f1;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@import '../components/CardList/CardList.scss';
+@import '../components/ShopList/ShopList.scss';
+@import '../components/AgendaList/Agenda.scss';
+@import '../components/ToDoList/ToDo.scss';

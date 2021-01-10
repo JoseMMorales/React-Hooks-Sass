@@ -1,0 +1,14 @@
+.list-group-toDos {
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+
+    &.item-completed {
+      text-decoration: line-through;
+      background-color: #ececec;
+    }
+  }
+}
+
+
+

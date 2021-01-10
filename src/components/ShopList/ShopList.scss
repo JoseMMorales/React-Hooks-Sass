@@ -1,0 +1,8 @@
+.container-shoplist {
+  @include container-centered(flex, column, center, center)
+}
+
+.list-group-shopList {
+  width: 20rem;
+  margin-top: 10px;
+}

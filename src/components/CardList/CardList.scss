@@ -1,0 +1,9 @@
+.container-card {
+  @include container-centered(flex, column, center, center)
+}
+
+.card {
+  width: 18rem;
+}
+
+
