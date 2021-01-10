@@ -1,12 +1,12 @@
-<p align="right"> 
-
-  <img src="https://user-images.githubusercontent.com/43299285/104133764-de48c980-5385-11eb-8f87-629c05ea405f.png" >
-
-</p>
+![Screenshot 2021-01-10 at 20 52 25](https://user-images.githubusercontent.com/43299285/104133764-de48c980-5385-11eb-8f87-629c05ea405f.png)
 
 # React-Hooks-Sass 
 
-[Hooks](https://reactjs.org/docs/hooks-faq.html#do-i-need-to-rewrite-all-my-class-components) are integrated functions in [React v16.8](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html) that give to React developers managing lifecycle methods inside functional components without building any class. 
+[Hooks](https://reactjs.org/docs/hooks-faq.html#do-i-need-to-rewrite-all-my-class-components) are integrated functions in [React v16.8](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html) that give to React developers managing lifecycle methods inside functional components without building any class. In this repo I have used a few of them to use local state to manage data for UI in different scenarios. Besides, this project has also been implemented with CSS pre-processor ([Sass](https://create-react-app.dev/docs/adding-a-sass-stylesheet/) **'Syntactically awesome style sheets'**) to build the style sheets faster, which are executed on the server and sends CSS to the browser.
+
+### Hooks in React-Hooks-Sass Project...
+
+[UseState](https://reactjs.org/docs/hooks-state.html), [UseEffect](https://reactjs.org/docs/hooks-effect.html) and [UseContent](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
 ## Installing
 * **Note that you should have installed NodeJS ^10.16.3 to proceed with steps below**
