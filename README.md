@@ -3,10 +3,10 @@
 ## Installing
 * **Note that you should have installed NodeJS ^10.16.3 to proceed with steps below**
 * Clone the project to your local directory
-* $git clone https://github.com/JoseMMorales/React-Hooks-Sass.git
-* $cd React-Hooks-Sass
-* $npm install
-* $npm start
+* `$git clone https://github.com/JoseMMorales/React-Hooks-Sass.git`
+* `$cd React-Hooks-Sass`
+* `$npm install`
+* `$npm start`
 
 #### Any SCSS file changes will be compiled automatically 
 
