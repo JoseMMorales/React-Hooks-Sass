@@ -2,18 +2,17 @@ import { useState, useContext } from 'react';
 import { GlobalContext } from '../../Context';
 
 export function Form() {
-  const [userInput, setUserInput] = useState(
-    {
-    name: '',
+  const [resetInputs, setResetInputs] = useState(
+  { name: '',
     surname: '',
     address: '',
     city: '',
     postCode: '',
     phone: '',
   });
-
+  const [userInput, setUserInput] = useState(resetInputs);
   const {setData} = useContext(GlobalContext);
-
+ 
   const handleChange = e => {
     const { name, value } = e.target;
     setUserInput({...userInput, [name]: value});
@@ -21,10 +20,8 @@ export function Form() {
 
   const addContact = (event) => {
     event.preventDefault();
-    setData(prevState => ({ 
-      ...prevState, 
-      users: [...prevState.users, userInput] 
-    }));
+    setData(prevState => ({ ...prevState, users: [...prevState.users, userInput]}));
+    setUserInput(prevState => prevState = resetInputs);
   }
 
   return (

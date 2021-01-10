@@ -25,7 +25,7 @@ In this App you will find four practice tasks which I created reusable component
 ![Screenshot 2021-01-10 at 23 29 36](https://user-images.githubusercontent.com/43299285/104137258-ced47b00-539b-11eb-9480-43f4ab4d5707.png)
 
 ### Demo...
-![Screen Recording 2021-01-10 at 23 57 21](https://user-images.githubusercontent.com/43299285/104137827-faf1fb00-539f-11eb-9211-7327fdfcedc0.gif)
+![Screen-Recording-2021-01-11-at-00 43 57](https://user-images.githubusercontent.com/43299285/104138776-aef68480-53a6-11eb-91d6-c7e0045b89f0.gif)
 
 ## Installing
 * **Note that you should have installed NodeJS ^10.16.3 to proceed with steps below**
