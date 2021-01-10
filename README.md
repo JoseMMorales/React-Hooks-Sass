@@ -1,4 +1,12 @@
-# React-Hooks-Sass
+<p align="right"> 
+
+  <img src="https://user-images.githubusercontent.com/43299285/104133764-de48c980-5385-11eb-8f87-629c05ea405f.png" >
+
+</p>
+
+# React-Hooks-Sass 
+
+[Hooks](https://reactjs.org/docs/hooks-faq.html#do-i-need-to-rewrite-all-my-class-components) are integrated functions in [React v16.8](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html) that give to React developers managing lifecycle methods inside functional components without building any class. 
 
 ## Installing
 * **Note that you should have installed NodeJS ^10.16.3 to proceed with steps below**
@@ -10,7 +18,7 @@
 
 #### Any SCSS file changes will be compiled automatically 
 
-## Technologies:
+## Technologies: 
 * NodeJS ^10.16.3
 * React ^17.0.1
 * Hooks
