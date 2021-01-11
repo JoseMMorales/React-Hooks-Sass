@@ -11,7 +11,7 @@ Besides, this project has also been implemented with CSS pre-processor ([Sass](h
 [UseState](https://reactjs.org/docs/hooks-state.html), [UseEffect](https://reactjs.org/docs/hooks-effect.html) and [UseContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
 ## This project...
-In this App you will find four practice tasks which I created reusable components, all of them linked an routed from high level App.js towards each individual page (see structure below). The navbar is been named to identify the certain task you are in, so it is very easy to go through. 
+In this App you will find four practice tasks in which I created reusable components, all of them linked an routed from high level App.js towards each individual page (see structure below). The navbar is been named to identify the certain task you are in, so it is very easy to go through. 
 
 * **Cards:** Meaning of this scenario is how to repeat same component (Card.js) passing props in all parameters of each card based on needs.
 * **Shop:** On this scenario, I have created two components (List.js and Library.js) to display data dinamically coming from useContext.
@@ -22,7 +22,7 @@ In this App you will find four practice tasks which I created reusable component
 #### API: https://jsonplaceholder.typicode.com/todos 
 
 ## App Structure
-![Screenshot 2021-01-10 at 23 29 36](https://user-images.githubusercontent.com/43299285/104137258-ced47b00-539b-11eb-9480-43f4ab4d5707.png)
+![Screenshot 2021-01-11 at 08 56 35](https://user-images.githubusercontent.com/43299285/104157195-f4d53c00-53ea-11eb-8928-ca97ab42d97c.png)
 
 ### Demo...
 ![Screen-Recording-2021-01-11-at-00 43 57](https://user-images.githubusercontent.com/43299285/104138776-aef68480-53a6-11eb-91d6-c7e0045b89f0.gif)
