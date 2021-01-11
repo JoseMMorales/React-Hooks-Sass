@@ -6,9 +6,19 @@
 
 Besides, this project has also been implemented with CSS pre-processor ([Sass](https://create-react-app.dev/docs/adding-a-sass-stylesheet/) **'Syntactically awesome style sheets'**) to build the style sheets faster, which are executed on the server and sends CSS to the browser.
 
-### Hooks in React-Hooks-Sass are...
+#### Hooks in React-Hooks-Sass are...
 
-[UseState](https://reactjs.org/docs/hooks-state.html), [UseEffect](https://reactjs.org/docs/hooks-effect.html) and [UseContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+[UseState](https://reactjs.org/docs/hooks-state.html)
+
+![Screenshot 2021-01-11 at 09 06 18](https://user-images.githubusercontent.com/43299285/104157846-492ceb80-53ec-11eb-8af5-774f456a4679.png)
+
+[UseEffect](https://reactjs.org/docs/hooks-effect.html) 
+
+![Screenshot 2021-01-11 at 09 13 44](https://user-images.githubusercontent.com/43299285/104158296-4f6f9780-53ed-11eb-95fd-9b82e2547efa.png)
+
+[UseContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+
+![Screenshot 2021-01-11 at 09 12 11](https://user-images.githubusercontent.com/43299285/104158172-19321800-53ed-11eb-8fee-09dbff70987f.png)
 
 ## This project...
 In this App you will find four practice tasks in which I created reusable components, all of them linked an routed from high level App.js towards each individual page (see structure below). The navbar is been named to identify the certain task you are in, so it is very easy to go through. 
