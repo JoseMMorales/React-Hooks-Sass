@@ -21,12 +21,12 @@ Besides, this project has also been implemented with CSS pre-processor ([Sass](h
 ![Screenshot 2021-01-11 at 09 12 11](https://user-images.githubusercontent.com/43299285/104158172-19321800-53ed-11eb-8fee-09dbff70987f.png)
 
 ## This project...
-In this App you will find four practice tasks in which I created reusable components, all of them linked an routed from high level App.js towards each individual page (see structure below). The navbar is been named to identify the certain task you are in, so it is very easy to go through. 
+In this App you will find four practice tasks in which I created reusable components, all of them linked and routed from high level App.js towards each individual page (see structure below). The navbar is been named to identify the certain task you are in, so it is very easy to go through. 
 
 * **Cards:** Meaning of this scenario is how to repeat same component (Card.js) passing props in all parameters of each card based on needs.
-* **Shop:** On this scenario, I have created two components (List.js and Library.js) to display data dinamically coming from useContext.
+* **Shop:** On this scenario, I have created two components (List.js and Library.js) to display data dynamically  coming from useContext.
 * **Agenda:** On this scenario, Agenda.js component is displaying the data from useContext, so Form.js updates the states in main database.
-* **To Do:** On this scenario, we get data from API using fetch in createContent for being displayed dinamically when Input.js is adding a new To Do.
+* **To Do:** On this scenario, we get data from API using fetch in createContent for being displayed dynamically when Input.js is adding a new To Do.
 
 #### (!!Just 20 elements in To Dos call have been used in this task)
 #### API: https://jsonplaceholder.typicode.com/todos 
