@@ -27,9 +27,7 @@ export function ToDos() {
            return (
                   <li 
                     key={index}
-                    className={toDo.completed ? 
-                      'list-group-item item-completed' : 
-                      'list-group-item'}>
+                    className={`list-group-item ${toDo.completed && "item-completed"}`}>
                     <span 
                       onClick={() => toggle(index)}>
                       {index}: {toDo.title}
