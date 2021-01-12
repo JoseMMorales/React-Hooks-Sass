@@ -10,10 +10,9 @@ export function List() {
         Object.entries(data.shop).map((key, index) => {
         return (
           <>
-            <ul className='list-group list-group-shopList' key={`Ul-${index}`}>
-              <li className='list-group-item active' key={`LI-${index}`}>
-                <h5 
-                  key={`${key[0]}`}>
+            <ul className='list-group list-group-shopList'>
+              <li className='list-group-item active' key={`Li-${index}`}>
+                <h5>
                   {key[0]}
                 </h5>
               </li>
