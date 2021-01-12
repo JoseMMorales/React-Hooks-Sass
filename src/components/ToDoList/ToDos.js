@@ -10,19 +10,18 @@ export function ToDos() {
     const newToDos = [...toDos];
     newToDos[index].completed = !newToDos[index].completed;
 
-    setData(PrevState => ({ ...PrevState, toDos:[...PrevState.toDos = newToDos] }));
+    setData(PrevState => ({ ...PrevState, toDos:[...newToDos] }));
   }
 
   const removeToDo = (toDo) => {
     const toDosFiltered = toDos.filter(task => task.title !== toDo.title);
-    setData(PrevState => ({ ...PrevState, toDos: [...PrevState.toDos = toDosFiltered] }));
+    setData(PrevState => ({ ...PrevState, toDos: [...toDosFiltered] }));
   }
   
   return (
     <>
       <ul className='list-group list-group-toDos'>
         {
-          //We can use toDos && as well to wait until get the data from fetch (Context.js)
           toDos?.map((toDo, index) => { 
            return (
                   <li 
