@@ -6,11 +6,15 @@ export function ToDos() {
   const {data, setData} = useContext(GlobalContext);
   const toDos = data.toDos;
 
-  const toggle = (index) => {
-    const newToDos = [...toDos];
-    newToDos[index].completed = !newToDos[index].completed;
+  const toggle = (e, index) => {
+    const element = e.target.tagName;
 
-    setData(PrevState => ({ ...PrevState, toDos:[...newToDos] }));
+    if (['LI','SPAN'].indexOf(element) >= 0) {
+      const newToDos = [...toDos];
+      newToDos[index].completed = !newToDos[index].completed;
+      
+      setData(PrevState => ({ ...PrevState, toDos:[...newToDos] }));
+    }
   }
 
   const removeToDo = (toDo) => {
@@ -26,9 +30,9 @@ export function ToDos() {
            return (
                   <li 
                     key={index}
+                    onClick={(e) => toggle(e, index)}
                     className={`list-group-item ${toDo.completed && "item-completed"}`}>
-                    <span 
-                      onClick={() => toggle(index)}>
+                    <span>
                       {index}: {toDo.title}
                     </span>
                     <button 

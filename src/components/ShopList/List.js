@@ -22,7 +22,10 @@ export function List() {
                           <li 
                             className='list-group-item' 
                             key={`${value.product}`}>
-                            {value.product}
+                             {value.model ?
+                                `${value.product} ${value.brand} ${value.model} ${value.price}$` :
+                                `${value.product} ${value.brand} ${value.price}$`
+                              }
                           </li>
                     )
                   })
