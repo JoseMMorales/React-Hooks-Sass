@@ -69,13 +69,13 @@ function App() {
 		</nav>
 		<Switch>
 			<GlobalContextProvider>
-			<Route exact path='/'>
-				<Redirect to= '/pages/CardList'/>
-			</Route>
-			<Route exact path= '/pages/CardList' component={CardList}/>
-			<Route path='/pages/ShopList' component={ShopList}/>
-			<Route path='/pages/AgendaList' component={AgendaList}/>
-			<Route path='/pages/ToDoList' component={ToDoList}/>
+				<Route exact path='/'>
+					<Redirect to= '/pages/CardList'/>
+				</Route>
+				<Route exact path= '/pages/CardList' component={CardList}/>
+				<Route path='/pages/ShopList' component={ShopList}/>
+				<Route path='/pages/AgendaList' component={AgendaList}/>
+				<Route path='/pages/ToDoList' component={ToDoList}/>
 			</GlobalContextProvider>
 		</Switch>
 		</BrowserRouter>
