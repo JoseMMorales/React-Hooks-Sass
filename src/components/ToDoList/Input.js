@@ -4,7 +4,7 @@ import { GlobalContext } from '../../Context';
 export function Input() {
 	const [title, setTitle] = useState('');
 	const handleChange = ((e) => setTitle(e.target.value));
-	
+
 	const {setData} = useContext(GlobalContext);
 
 	const submitTask = (e) => {
@@ -22,16 +22,16 @@ export function Input() {
 	return (
 		<>
 			<h1>ToDo List</h1>
-			<form 
+			<form
 				className='form-group'
 				onSubmit={submitTask}>
-				<input 
-					className='form-control' 
-					type="text" 
-					name="task-input" 
+				<input
+					className='form-control'
+					type="text"
+					name="task-input"
 					placeholder='Enter thing to do...'
 					value={title}
-					onChange={handleChange} 
+					onChange={handleChange}
 				/>
 			</form>
 		</>

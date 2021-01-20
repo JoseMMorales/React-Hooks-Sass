@@ -5,8 +5,8 @@ export function ToDoList() {
 
 	return (
 		<div className="container">
-		<Input />
-		<ToDos />
+            <Input />
+            <ToDos />
 		</div>
 	)
 }
