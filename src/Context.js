@@ -41,29 +41,29 @@ const initialValue = {
 
 const GlobalContextProvider = (props) => {
 
-  const [data, setData] = useState(initialValue);
+	const [data, setData] = useState(initialValue);
 
-  useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/todos')
-      .then(response => response.json())
-      .then(data => {
-        const dataFiltered = data.filter(toDo => toDo.userId === 1);
-        const toDos = dataFiltered.map(task => {
-          return {
-            userId: task.userId,
-            title: task.title,
-            completed: task.completed,
-          }
-        })
-        setData(prevState => ({...prevState,toDos}))
-      })
-  }, []);
+	useEffect(() => {
+		fetch('https://jsonplaceholder.typicode.com/todos')
+		.then(response => response.json())
+		.then(data => {
+			const dataFiltered = data.filter(toDo => toDo.userId === 1);
+			const toDos = dataFiltered.map(task => {
+			return {
+				userId: task.userId,
+				title: task.title,
+				completed: task.completed,
+			}
+			})
+			setData(prevState => ({...prevState,toDos}))
+		})
+	}, []);
 
-  return (
-    <GlobalContext.Provider value={{data, setData}}>
-      {props.children}
-    </GlobalContext.Provider>
-  )
+	return (
+		<GlobalContext.Provider value={{data, setData}}>
+			{props.children}
+		</GlobalContext.Provider>
+	)
 }
 
 export default GlobalContextProvider

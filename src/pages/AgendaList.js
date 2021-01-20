@@ -3,10 +3,10 @@ import { Form } from '../components/AgendaList/Form';
 
 export function AgendaList() {
 
-  return (
-    <div className='container-agenda'>
-      <Agenda  />
-      <Form />
-    </div>
-  )
+	return (
+		<div className='container-agenda'>
+			<Agenda  />
+			<Form />
+		</div>
+	)
 }
