@@ -30,8 +30,7 @@ function App() {
 			<span className='navbar-toggler-icon'/>
 			</button>
 			<div 
-			className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} 
-			id='newNavBar'>
+			className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id='newNavBar'>
 			<ul className='navbar-nav mx-auto text-center'>
 				<li className='nav-item'>
 				<NavLink 
