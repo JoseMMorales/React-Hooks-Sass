@@ -26,23 +26,23 @@ export function ToDos() {
 		<>
 			<ul className='list-group list-group-toDos'>
 				{
-					toDos?.map((toDo, index) => { 
-					return (
-							<li 
-								key={index}
-								onClick={(e) => toggle(e, index)}
-								className={`list-group-item ${toDo.completed && "item-completed"}`}>
-								<span>
-									{index}: {toDo.title}
-								</span>
-								<button 
-									className='btn btn-danger'
-									onClick={() => removeToDo(toDo)}>
-									X
-								</button>
-							</li>
-					);
-					})
+				toDos?.map((toDo, index) => { 
+				return (
+						<li 
+							key={index}
+							onClick={(e) => toggle(e, index)}
+							className={`list-group-item ${toDo.completed && "item-completed"}`}>
+							<span>
+								{index}: {toDo.title}
+							</span>
+							<button 
+								className='btn btn-danger'
+								onClick={() => removeToDo(toDo)}>
+								X
+							</button>
+						</li>
+				);
+				})
 				}
 			</ul>
 		</>
